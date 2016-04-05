@@ -2,15 +2,15 @@
 namespace RiotAPILib\Dto;
 
 class GameInfo {
-	private $bannedChampions;
-	private $gameId, $gameLength;
-	private $gameMode;
-	private $gameQueueConfigId, $gameStartTime;
-	private $gameType;
-	private $mapId;
-	private $observers;
-	private $participants;
-	private $platformId;
+	protected $bannedChampions;
+	protected $gameId, $gameLength;
+	protected $gameMode;
+	protected $gameQueueConfigId, $gameStartTime;
+	protected $gameType;
+	protected $mapId;
+	protected $observers;
+	protected $participants;
+	protected $platformId;
 
 	/**
 	 * CurrentGameInfo constructor.
