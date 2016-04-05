@@ -1,5 +1,5 @@
 <?php
-namespace RiotAPILib\Dto;
+namespace RiotAPILib\Dto\game;
 
 class RawStats {
 	private $assists, $barracksKilled, $bountyLevel, $championsKilled, $combatPlayerScore, $consumablesPurchased,

@@ -1,7 +1,8 @@
 <?php
-namespace RiotAPILib\Dto;
+namespace RiotAPILib\Dto\game;
 
 use RiotAPILib\Dto\collection\DtoArrayList;
+use RiotAPILib\Dto\game\RawStats;
 
 class Game {
 	private $championId;
