@@ -1,5 +1,5 @@
 <?php
-namespace RiotAPILib\Dto;
+namespace RiotAPILib\Dto\champion_mastery;
 
 use RiotAPILib\Dto\Collection\DtoArrayList;
 
