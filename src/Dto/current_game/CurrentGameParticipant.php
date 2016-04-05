@@ -1,5 +1,7 @@
 <?php
-namespace RiotAPILib\Dto;
+namespace RiotAPILib\Dto\current_game;
+
+use RiotAPILib\Dto\DtoArrayList;
 
 class CurrentGameParticipant {
 	private $isBot;
