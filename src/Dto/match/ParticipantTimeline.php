@@ -2,7 +2,7 @@
 namespace RiotAPILib\Dto\match;
 
 class ParticipantTimeline {
-	private $ancientGolemAssistsPerMinCounts, $ancientGolemKillsPerMinCounts, $assistedLaneDeathsPrtMinDeltas,
+	private $ancientGolemAssistsPerMinCounts, $ancientGolemKillsPerMinCounts, $assistedLaneDeathsPerMinDeltas,
 		$assistedLaneKillsPerMinDeltas, $baronAssistsPerMinCounts, $baronKillsPerMinCounts, $creepsPerMinDeltas,
 		$csDiffPerMinDeltas, $damageTakenDiffPerMin, $damageTakenPerMinDeltas, $dragonAssistsPerMinCounts,
 		$dragonKillsPerMinCounts, $elderLizardAssistsPerMinCounts, $elderLizardKillsPerMinCounts,
@@ -15,7 +15,7 @@ class ParticipantTimeline {
 	 * ParticipantTimeline constructor.
 	 * @param $ancientGolemAssistsPerMinCounts
 	 * @param $ancientGolemKillsPerMinCounts
-	 * @param $assistedLaneDeathsPrtMinDeltas
+	 * @param $assistedLaneDeathsPerMinDeltas
 	 * @param $assistedLaneKillsPerMinDeltas
 	 * @param $baronAssistsPerMinCounts
 	 * @param $baronKillsPerMinCounts
@@ -42,7 +42,7 @@ class ParticipantTimeline {
 	 * @param $xpPerMinDeltas
 	 */
 	public function __construct($ancientGolemAssistsPerMinCounts, $ancientGolemKillsPerMinCounts,
-								$assistedLaneDeathsPrtMinDeltas, $assistedLaneKillsPerMinDeltas,
+								$assistedLaneDeathsPerMinDeltas, $assistedLaneKillsPerMinDeltas,
 								$baronAssistsPerMinCounts, $baronKillsPerMinCounts, $creepsPerMinDeltas,
 								$csDiffPerMinDeltas, $damageTakenDiffPerMin, $damageTakenPerMinDeltas,
 								$dragonAssistsPerMinCounts, $dragonKillsPerMinCounts, $elderLizardAssistsPerMinCounts,
@@ -52,7 +52,7 @@ class ParticipantTimeline {
 								$vilemawKillsPerMinCounts, $wardsPerMinDeltas, $xpDiffPerMinDeltas, $xpPerMinDeltas) {
 		$this->ancientGolemAssistsPerMinCounts = $ancientGolemAssistsPerMinCounts;
 		$this->ancientGolemKillsPerMinCounts = $ancientGolemKillsPerMinCounts;
-		$this->assistedLaneDeathsPrtMinDeltas = $assistedLaneDeathsPrtMinDeltas;
+		$this->assistedLaneDeathsPerMinDeltas = $assistedLaneDeathsPerMinDeltas;
 		$this->assistedLaneKillsPerMinDeltas = $assistedLaneKillsPerMinDeltas;
 		$this->baronAssistsPerMinCounts = $baronAssistsPerMinCounts;
 		$this->baronKillsPerMinCounts = $baronKillsPerMinCounts;
@@ -96,8 +96,8 @@ class ParticipantTimeline {
 	/**
 	 * @return ParticipantTimelineData
 	 */
-	public function getAssistedLaneDeathsPrtMinDeltas() {
-		return $this->assistedLaneDeathsPrtMinDeltas;
+	public function getAssistedLaneDeathsPerMinDeltas() {
+		return $this->assistedLaneDeathsPerMinDeltas;
 	}
 
 	/**
