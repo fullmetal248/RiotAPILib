@@ -2,18 +2,18 @@
 namespace RiotAPILib\Dto;
 
 class Translation {
-	private $content, $locale, $updated_at;
+	private $content, $locale, $updatedAt;
 
 	/**
 	 * Translation constructor.
 	 * @param $content
 	 * @param $locale
-	 * @param $updated_at
+	 * @param $updatedAt
 	 */
-	public function __construct($content, $locale, $updated_at) {
+	public function __construct($content, $locale, $updatedAt) {
 		$this->content = $content;
 		$this->locale = $locale;
-		$this->updated_at = $updated_at;
+		$this->updatedAt = $updatedAt;
 	}
 
 	/**
@@ -34,7 +34,7 @@ class Translation {
 	 * @return string
 	 */
 	public function getUpdatedAt() {
-		return $this->updated_at;
+		return $this->updatedAt;
 	}
 
 }
