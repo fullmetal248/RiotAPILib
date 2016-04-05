@@ -9,7 +9,7 @@ class Champion {
 	private $isRankedPlayEnabled;
 
 	/**
-	 * Champion constructor.
+	 * champion constructor.
 	 * @param $isActive
 	 * @param $isBotEnabled
 	 * @param $isBotMmEnabled
