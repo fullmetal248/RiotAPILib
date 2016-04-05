@@ -16,14 +16,14 @@ class BannedChampion2 {
 	}
 
 	/**
-	 * @return mixed
+	 * @return int
 	 */
 	public function getChampionId() {
 		return $this->championId;
 	}
 
 	/**
-	 * @return mixed
+	 * @return int
 	 */
 	public function getPickTurn() {
 		return $this->pickTurn;
