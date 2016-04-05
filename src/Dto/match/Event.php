@@ -1,7 +1,8 @@
 <?php
-namespace RiotAPILib\Dto;
+namespace RiotAPILib\Dto\match;
 
 use RiotAPILib\Dto\collection\DtoArrayList;
+use RiotAPILib\Dto\match\Position;
 
 class Event {
 	private $ascendedType;

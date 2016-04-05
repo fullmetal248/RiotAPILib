@@ -1,5 +1,5 @@
 <?php
-namespace RiotAPILib\Dto;
+namespace RiotAPILib\Dto\match;
 
 use RiotAPILib\Dto\collection\DtoArrayList;
 use RiotAPILib\Dto\collection\DtoMap;

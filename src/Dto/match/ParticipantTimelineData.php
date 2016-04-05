@@ -1,5 +1,5 @@
 <?php
-namespace RiotAPILib\Dto;
+namespace RiotAPILib\Dto\match;
 
 class ParticipantTimelineData {
 	private $tenToTwenty, $thirtyToEnd, $twentyToThirty, $zeroToTen;

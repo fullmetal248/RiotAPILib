@@ -1,5 +1,5 @@
 <?php
-namespace RiotAPILib\Dto;
+namespace RiotAPILib\Dto\match;
 
 class Position {
 	private $x, $y;

@@ -1,5 +1,7 @@
 <?php
-namespace RiotAPILib\Dto;
+namespace RiotAPILib\Dto\match;
+
+use RiotAPILib\Dto\match\Position;
 
 class ParticipantFrame {
 	private $currentGold, $dominionScore, $jungleMinionsKilled, $level, $minionsKilled, $participantId;

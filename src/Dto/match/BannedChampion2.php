@@ -1,5 +1,5 @@
 <?php
-namespace RiotAPILib\Dto;
+namespace RiotAPILib\Dto\match;
 
 //TODO 要変更
 class BannedChampion2 {
