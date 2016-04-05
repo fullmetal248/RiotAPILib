@@ -1,5 +1,5 @@
 <?php
-namespace RiotAPILib\Dto\Collection;
+namespace RiotAPILib\Dto\collection;
 
 class DtoArrayList implements DtoList {
 	private $values = [];

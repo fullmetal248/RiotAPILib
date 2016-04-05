@@ -1,5 +1,5 @@
 <?php
-namespace RiotAPILib\Dto\Collection;
+namespace RiotAPILib\Dto\collection;
 
 interface DtoList extends \Countable, \ArrayAccess, \IteratorAggregate {
 

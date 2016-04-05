@@ -1,7 +1,7 @@
 <?php
-namespace RiotAPILib\Dto;
+namespace RiotAPILib\Dto\champion;
 
-use RiotAPILib\Dto\Collection\DtoArrayList;
+use RiotAPILib\Dto\collection\DtoArrayList;
 
 class ChampionList extends DtoArrayList {
 }

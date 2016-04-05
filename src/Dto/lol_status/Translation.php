@@ -1,5 +1,5 @@
 <?php
-namespace RiotAPILib\Dto;
+namespace RiotAPILib\Dto\lol_status;
 
 class Translation {
 	private $content, $locale, $updatedAt;

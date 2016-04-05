@@ -1,6 +1,6 @@
 <?php
 
-namespace RiotAPILib\Dto;
+namespace RiotAPILib\Dto\champion;
 
 
 class Champion {
