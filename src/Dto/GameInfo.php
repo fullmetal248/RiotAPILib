@@ -1,8 +1,8 @@
 <?php
 namespace RiotAPILib\Dto;
 
-use RiotAPILib\Dto\current_game\BannedChampion;
-use RiotAPILib\Dto\current_game\Observer;
+use RiotAPILib\Dto\featured_games\BannedChampion;
+use RiotAPILib\Dto\featured_games\Observer;
 
 class GameInfo {
 	protected $bannedChampions;
