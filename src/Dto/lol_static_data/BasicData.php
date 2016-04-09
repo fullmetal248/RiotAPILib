@@ -1,13 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: TOMO
- * Date: 2016/04/07
- * Time: 13:26
- */
-
 namespace RiotAPILib\Dto\lol_static_data;
-
 
 use RiotAPILib\Dto\collection\DtoArrayList;
 use RiotAPILib\Dto\collection\DtoMap;
