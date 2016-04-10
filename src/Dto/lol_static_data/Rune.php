@@ -218,7 +218,7 @@ class Rune {
 	}
 
 	/**
-	 * @return BasicData
+	 * @return BasicDataStats
 	 */
 	public function getStats() {
 		return $this->stats;
