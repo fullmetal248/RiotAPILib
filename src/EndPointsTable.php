@@ -38,6 +38,10 @@ class EndPointsTable {
 		return $instance;
 	}
 
+	/**
+	 * @param $idx
+	 * @return EndPoint
+	 */
 	public function get($idx) {
 		return $this->endpoints[$idx];
 	}
