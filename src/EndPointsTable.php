@@ -70,7 +70,7 @@ class EndPoint {
 	}
 
 	/**
-	 * @return mixed
+	 * @return string
 	 */
 	public function getRegionId() {
 		return $this->regionId;
