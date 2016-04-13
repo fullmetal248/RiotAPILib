@@ -11,13 +11,14 @@ class GetChampionById extends BaseEndPoint {
 	 * @param $apiKey
 	 * @param $region
 	 * @param $id
+	 * @param $isOnlyFreeToPlay
 	 */
-	public function __construct($apiKey, $region, $id) {
+	public function __construct($apiKey, $region, $id, $isOnlyFreeToPlay) {
 		parent::__construct($apiKey, $region);
 		$endPoint = EndPointsTable::getInstance()->get($region);
 		$hostUrl = $endPoint->getHostUrl();
 		$regionStr = $endPoint->getRegionId();
 
-		$this->targetUrl = "https://${hostUrl}/api/lol/${regionStr}/v1.2/champion/${id}?api_key=${apiKey}";
+		$this->targetUrl = "https://${hostUrl}/api/lol/${regionStr}/v1.2/champion/${id}?freeToPlay=${isOnlyFreeToPlay}&&api_key=${apiKey}";
 	}
 }
