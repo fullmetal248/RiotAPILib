@@ -9,9 +9,8 @@ class GetFeaturedGames extends BaseEndPoint {
 	 * GetChampion constructor.
 	 * @param $apiKey
 	 * @param $region
-	 * @param $summonerId
 	 */
-	public function __construct($apiKey, $region, $summonerId) {
+	public function __construct($apiKey, $region) {
 		parent::__construct($apiKey, $region);
 		$endPoint = EndPointsTable::getInstance()->get($region);
 		$hostUrl = $endPoint->getHostUrl();
