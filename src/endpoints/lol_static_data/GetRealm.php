@@ -4,7 +4,7 @@ namespace RiotAPILib\endpoints\lol_static_data;
 use RiotAPILib\endpoints\BaseEndPoint;
 use RiotAPILib\EndPointsTable;
 
-class GetRealmData extends BaseEndPoint {
+class GetRealm extends BaseEndPoint {
 	/**
 	 * GetChampion constructor.
 	 * @param $apiKey
