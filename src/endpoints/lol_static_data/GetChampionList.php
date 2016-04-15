@@ -10,6 +10,7 @@ class GetChampionList extends BaseEndPoint {
 	 * @param $apiKey
 	 * @param $region
 	 */
+	//TODO add optional param
 	public function __construct($apiKey, $region) {
 		parent::__construct($apiKey, $region);
 		$endPoint = EndPointsTable::getInstance()->get(EndPointsTable::GlobalStatic);
